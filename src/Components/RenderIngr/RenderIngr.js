@@ -24,7 +24,7 @@ const RenderIngr = props => {
                 return <div className="box" key={nanoid()}>
                     <div className="cursor" onClick={() => props.onAdd(ingr)}>{ingr.image}</div>
                     <span>{ingr.name} </span>
-                    <span>{ingr.price} Сом</span>
+                    <span>{ingr.price} сом</span>
                     <span> x {props.ingredientApp[index].count}</span>
 
                     {props.ingredientApp[index].count > 0 ?
