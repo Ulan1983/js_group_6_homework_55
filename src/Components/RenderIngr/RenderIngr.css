@@ -1,0 +1,20 @@
+.menu {
+	text-align: center;
+}
+
+.box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cursor {
+	cursor: pointer;
+	padding: 5px;
+}
+
+.far {
+	font-size: 20px;
+	color: red;
+	cursor: pointer;
+}

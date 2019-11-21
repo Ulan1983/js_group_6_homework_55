@@ -1,0 +1,9 @@
+.total {
+	width: 50%;
+	font-size: 25px;
+	font-weight: bold;
+	border: 1px solid #cccccc;
+	border-radius: 7px;
+	padding: 10px 20px;
+	margin: 20px auto;
+}
